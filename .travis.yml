@@ -1,5 +1,6 @@
 dist: xenial
 sudo: required
+arch: ppc64le
 
 language: go
 
