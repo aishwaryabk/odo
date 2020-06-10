@@ -174,6 +174,7 @@ jobs:
         - travis_wait make test-cmd-docker-devfile-catalog
         - travis_wait make test-cmd-docker-devfile-delete
         - travis_wait make test-cmd-docker-devfile-url
+        - cat /usr/local/bin/minikube
 
     # Run devfile integration test on Kubernetes cluster    
     - <<: *base-test
