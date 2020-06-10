@@ -32,6 +32,7 @@ jobs:
       
     # YAML alias, for settings shared across the tests on windows
     - &windows-test
+      arch: ppc64le
       stage: Test
       name: "Unit test on windows"
       os: 
@@ -53,6 +54,7 @@ jobs:
 
     # YAML alias, for settings shared across the tests on macOS
     - &osx-test
+      arch: ppc64le
       stage: Test
       name: "Unit test on OSX"
       os:
