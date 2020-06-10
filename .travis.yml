@@ -36,7 +36,7 @@ jobs:
       name: "Unit test on windows"
       os: 
         - windows
-      arch: ppc64le
+        - arch: ppc64le
       init:
       - git config --system core.longpaths true
       go_import_path: github.com/openshift/odo
@@ -58,7 +58,7 @@ jobs:
       name: "Unit test on OSX"
       os:
         - osx
-      arch: ppc64le
+        - arch: ppc64le
       go_import_path: github.com/openshift/odo
       go: "1.12.x"
       install:
